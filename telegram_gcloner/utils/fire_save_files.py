@@ -157,12 +157,12 @@ class MySaveFileThread(threading.Thread):
                     message_progress = '📤 Source: <a href="https://drive.google.com/open?id={}">{}</a>\n' \
                                        '🔸🔹🔸🔹🔸🔹🔸🔹🔸🔹\n' \
                                        '🔍 Existing checks： {} / {}\n' \
-                                       '📄 Transfers： <code>{}</code> / {}\n' \
-                                       '📦 Size：<code>{}</code> / {}\n{}' \
+                                       '📄 Memindahkan： <code>{}</code> / {}\n' \
+                                       '📦 Ukuran：<code>{}</code> / {}\n{}' \
                                        '🛰 Bandwidth speed：<code>{}</code>\n' \
-                                       '⏰ Estimated time：<code>{}</code>\n' \
+                                       '⏰ Estimasi Waktu：<code>{}</code>\n' \
                                        '⏳ Progress：{}\n' \
-                                       '📈 Percentage：<code>{}%</code>' \
+                                       '📈 Persentase：<code>{}%</code>' \
                         .format(
                         folder_id,
                         html.escape(destination_path),
