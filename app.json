@@ -1,23 +1,23 @@
 {
 	"name": "Super Fclone Bot",
 	"description": "Super Fclone Bot",
-	"repository": "https://github.com/kzinthant-kas/superfclone",
+	"repository": "https://github.com/KedaiTube84/Super-Fclone",
 	"keywords": ["fclone","FG"],
-        "website": "https://t.me/drivetalk",
-        "success_url": "https://github.com/kzinthant-kas/superfclone/blob/main/README.md",
+        "website": "https://t.me/RequestMovie84",
+        "success_url": "https://github.com/KedaiTube84/Super-Fclone/blob/main/README.md",
 	"env": {
 		"telegram_token": {
-			"description": "Get one from @botfather by creating new bot"
+			"description": "Buatlah Bot baru di @botfather"
 		},
 		"user_ids": {
-			"description": "https://t.me/MissRose_bot in MissRose, type /id and put here, multiple users separate by comma ,"
+			"description": "Temukan Bot @MissRose_bot, lalu ketikkan /id dan masukkan id-mu kesini,"
 		},
 		"group_ids": {
-			"description": "Put group id, if there is no group, put -1",
+			"description": "Kau harus ambil id di group chanel awalan -100",
       "value": "-1"
 		},
 		"gclone_para_override": {
-			"description": "Skip this if you don't know",
+			"description": "Tak usah kau isi, jika gak tahu",
 			"required": false
 		}
 	},
